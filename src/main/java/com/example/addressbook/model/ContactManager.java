@@ -3,6 +3,9 @@ package com.example.addressbook.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *  A class
+ */
 public class ContactManager {
     private IContactDAO contactDAO;
     public ContactManager(IContactDAO contactDAO) {

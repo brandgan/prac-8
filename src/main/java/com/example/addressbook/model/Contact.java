@@ -1,5 +1,7 @@
 package com.example.addressbook.model;
-
+/**
+ * Class to represent a Contact object in the address home integration
+*/
 public class Contact {
     private int id;
     private String firstName;
@@ -7,6 +9,13 @@ public class Contact {
     private String email;
     private String phone;
 
+    /**
+     * Constructor for Contact class to create a new Contact object
+     * @param firstName - first name of a contact
+     * @param lastName - last name of a contact
+     * @param email - email address for a contact
+     * @param phone - phone number for a contact
+     */
     public Contact(String firstName, String lastName, String email, String phone) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -14,6 +23,10 @@ public class Contact {
         this.phone = phone;
     }
 
+    /**
+     * Getter for the ID of a contact object
+     * @return an integer representing the ID for the contact
+     */
     public int getId() {
         return id;
     }
